@@ -1,0 +1,50 @@
+div.box{
+    width: 150px;
+    height: 150px;
+    margin: 3rem;
+}
+.box-1{
+    background-color: blue;
+    transition: background-color 3s;
+}
+.box-1:hover{
+    background-color: rgb(185, 19, 122);
+    cursor: pointer;
+}
+.btn{
+    margin: 4rem;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    border: 5px solid black;
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    transition: all 2s;
+}
+.btn:hover{
+    transform: translateX(250%) rotate(180deg) scale(1.5);
+    background-color: white;
+    color: orangered;
+}
+.box-2{
+    background-color: green;
+    transition: background-color 2s transform 1s;
+}
+.box-2:active{
+    transform: rotate(360deg);
+    background-color: goldenrod;
+    cursor: pointer;
+}
+.box-3{
+    background-color: yellow;
+    transition: all ease-in-out 1s;
+}
+.box-3:hover{
+    transform: scale(2) rotate(360deg);
+    background-color: red;
+    border-radius: 50%;
+    cursor: pointer;
+}

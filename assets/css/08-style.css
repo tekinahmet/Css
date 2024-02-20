@@ -1,0 +1,18 @@
+nav.menu{
+    background-color: orange;
+    color:rgb(53, 39, 20);
+    text-align: center;
+    padding: 25px;
+    width: 200px;
+    height: 100px;
+}
+
+nav.menu div.active{
+    background-color: blueviolet;
+    color: white;
+    padding: 10px;
+}
+
+h1.title{
+    color: royalblue;
+}

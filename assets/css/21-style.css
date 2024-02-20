@@ -1,0 +1,25 @@
+body{
+    background-color: azure;
+}
+nav.menu ul{
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 2rem;
+}
+nav.menu ul li{
+    display: inline-block;
+}
+nav.menu ul li a{
+    text-decoration: none;
+    background-color: darkblue;
+    color: whitesmoke;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+nav.menu ul li a:hover{
+    background-color: chartreuse;
+    color: crimson;
+    cursor: pointer;
+}

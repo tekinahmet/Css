@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container div{
+    width: 100px;
+    text-align: center;
+    padding: 20px;
+}
+div.container div:first-child{
+    background-color: blueviolet;
+}
+div.container div:nth-child(2){
+    background-color: gold;
+}
+div.container div:nth-child(3){
+    background-color: pink;
+}
+div.container div:nth-child(4){
+    background-color: crimson;
+}
+div.container div:last-child{
+    background-color: chartreuse;
+}

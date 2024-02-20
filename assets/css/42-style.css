@@ -1,0 +1,32 @@
+div.title {
+    text-align: center;
+    margin: 3rem;
+    color: red;
+    font-size: 2.5rem;
+}
+div.title-1 {
+    text-shadow: 3px 4px 5px blue;
+}
+div.title-2 {
+    text-shadow: 4px 2px 3px rgb(0, 255, 51), 3px 4px 5px blue;
+}
+div.title-3 {
+    box-shadow:18px 26px 10px purple;
+}
+div.title-4 {
+    box-shadow:1px 2px 1px purple,0 0 7px royalblue;
+}
+div.title-5 {
+    box-shadow:4px 2px 3px #12ab12, 0px 0px 15px red;
+}
+div.title-6{
+    background-color: rgb(255, 111, 0);
+    color: rgb(38, 190, 193);
+    box-shadow: 4px 2px 6px black;
+    transition: all 1s ease-in-out;
+}
+div.title-6:hover{
+    background-color: #a944ba;
+    cursor: pointer;
+    text-shadow: 3px 5px 4px whitesmoke;
+}
